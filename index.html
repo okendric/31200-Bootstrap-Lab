@@ -90,7 +90,7 @@
 
         </div>
         <!-- carousel-->
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xxl-3 col-xxl-4 carousel-area bg-gradient">
+        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xxl-3 col-xxl-4 carousel-area bg-body bg-gradient">
           <div id="course_carousel" class="carousel carousel-light"
             data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-indicators">
@@ -144,10 +144,15 @@
                 </div>
               </div>
             </div>
+
             <!-- buttons to control navigation are placed outside carousel inner -->
             <button class="carousel-control-prev" type="button"
-              data-bs-target="#course_carousel" data-bs-slide="prev"> …
-            </button> <button class="carousel-control-next" type="button"
+              data-bs-target="#course_carousel" data-bs-slide="prev"> <span
+              class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Prev</span> </button>
+            </button> 
+           
+            <button class="carousel-control-next" type="button"
               data-bs-target="#course_carousel" data-bs-slide="next"> <span
                 class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span> </button>
